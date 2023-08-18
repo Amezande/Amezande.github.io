@@ -144,7 +144,7 @@ button:active {
 div.gallery {
     border: 1px solid #ccc;
     margin-top: 1rem;
-    
+    object-fit:cover;
   }
   
   div.gallery:hover {
@@ -155,8 +155,8 @@ div.gallery {
   
   div.gallery img {
     height: auto;
-    object-fit:contain;
-    height: 38rem;
+    
+    height: 35rem;
     margin-left: -31px;
     
     
