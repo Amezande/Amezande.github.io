@@ -320,7 +320,7 @@ min-width: mientras sea mayor a lo indicado
     text-align: center;
     font-size: 1.4rem;
     background-image: url(Rosa.jpg);
-    object-fit:fill;/*Ocupa todo el contenido que tiene la página*/
+    object-fit:cover;/*Ocupa todo el contenido que tiene la página*/
     background-position: 50%; /*Pone el logo en el centro*/
     
     background-repeat: no-repeat;
