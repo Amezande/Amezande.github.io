@@ -108,11 +108,8 @@ min-width: mientras sea mayor a lo indicado
     grid-template-columns: repeat(2,1fr);
     text-align: center;
 }
-.contenedor{
-    /*text-align: center;*/
-    
-}
-button {
+
+.button {
     padding: 12px 40px;
     border-radius: 50px;
     border: 0;
@@ -123,16 +120,17 @@ button {
     font-size: 15px;
     text-align: center;
     transition: all .5s ease;
+    color:black;
    }
    
-button:hover {
+.button:hover {
     letter-spacing: 1.9px;
     background-color: #ff66c2;
     color: hsl(0, 0%, 100%);
     box-shadow: #ff296d 0px 7px 29px 0px;
 }
 
-button:active {
+.button:active {
     letter-spacing: 3px;
     background-color:#e15bab;
     color: hsl(0, 0%, 100%);
@@ -160,6 +158,9 @@ div.gallery {
     margin-left: -31px;
     
     
+  }
+  .pic{
+    width: 100%;
   }
   
   div.desc {
@@ -320,7 +321,7 @@ min-width: mientras sea mayor a lo indicado
     text-align: center;
     font-size: 1.4rem;
     background-image: url(Rosa.jpg);
-    object-fit:cover;/*Ocupa todo el contenido que tiene la página*/
+    object-fit:fill;/*Ocupa todo el contenido que tiene la página*/
     background-position: 50%; /*Pone el logo en el centro*/
     
     background-repeat: no-repeat;
